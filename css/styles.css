@@ -1,0 +1,99 @@
+:root {
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f7f7f7;
+  --third-bg-color: #191c26;
+  --text-accent-color: #ff6c00;
+  --primary-black-color: #303030;
+  --primary-text-color: #555555;
+  --primary-grey-color: #9da4bd;
+  --hero-bg-color: rgba(25, 28, 38, 0.2);
+  --prices-bg-color: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+  --booking-text-color: rgba(157, 164, 189, 0.4);
+  --darkbg-text-color: rgba(157, 164, 189, 0.6);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  background-color: var(--primary-white-color);
+  color: #9da4bd;
+}
+ul {
+  padding-left: 0;
+  margin: 0 auto;
+}
+h1, h2, h3, p {
+  margin: 0 auto;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+}
+.button {
+  padding: 12px 20px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  color: var(--primary-white-color);
+  background-color: transparent;
+
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid var(--text-accent-color);
+  border-radius: 25px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+/* Header */
+/* Navigation */
+.page-nav .link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-white-color);
+}
+/* Hero */
+.hero.section {
+  background-color: var(--hero-bg-color);
+}
+.hero-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 72px;
+line-height: 1.18;
+letter-spacing: 0.05em;
+color: var(--primary-white-color);
+}
+.hero .subtitle {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: var(--darkbg-text-color);
+}
+.hero .content {
+font-size: 18px;
+line-height: 1.67px;
+}
