@@ -19,29 +19,50 @@
 <body>
   <!-- Header -->
   <header>
-    <div class="page-header container">
-      <!-- Logo -->
-      <a class="logo" href="./index.html">
-        <svg class="logo-icon">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <!-- Navigation -->
-      <nav class="page-nav">
-        <ul class="nav-list list">
-          <li class="item"><a class="nav-link link" href="">About</a></li>
-          <li class="item"><a class="nav-link link" href="">Services and prices</a></li>
-          <li class="item"><a class="nav-link link" href="">Barbers</a></li>
-          <li class="item"><a class="nav-link link" href="">Contacts</a></li>
+    <div class="container page-header">
+      <div class="page-topline">
+        <!-- Logo -->
+        <a class="logo" href="./index.html">
+          <svg class="logo-icon">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <!-- Navigation -->
+        <nav class="page-nav">
+          <ul class="nav-list list">
+            <li class="item"><a class="nav-link link" href="">About</a></li>
+            <li class="item"><a class="nav-link link" href="">Services and prices</a></li>
+            <li class="item"><a class="nav-link link" href="">Barbers</a></li>
+            <li class="item"><a class="nav-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <a class="header-link link " href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="header-button button" type="button">Online-booking</button>
+      </div>
+      <div class="hero">
+        <ul class="hero-list list">
+          <li class="item">
+            <a class="link" href="https://www.instagram.com/" target="_blank"
+              rel="noopener noreferrer nofollow">Instagram</a>
+          </li>
+          <li class="item">
+            <a class="link" href="https://www.youtube.com/" target="_blank"
+              rel="noopener noreferrer nofollow">Youtube</a>
+          </li>
         </ul>
-      </nav>
-      <a class="header-link link " href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="header-button button" type="button">Online-booking</button>
+        <div class="hero-content">
+          <p class="hero-subtitle subtitle">A hair salon for men in Kyiv</p>
+          <h1 class="hero-title">BarberShop</h1>
+          <p class="text">We are experts in trendy men’s haircuts. <br> We work quickly, carefully and with style.</p>
+        </div>
+        <div class="slider-overlay">
+      </div>
+      </div>
     </div>
   </header>
   <!-- Hero -->
-  <div class="container">
-    <section class="hero section">
+  <!-- <section class="hero">
+      <div class="container">
       <ul class="hero-list list">
         <li class="item">
           <a class="link" href="https://www.instagram.com/" target="_blank"
@@ -55,12 +76,14 @@
         <p class="subtitle">A hair salon for men in Kyiv</p>
         <h1 class="hero-title">BarberShop</h1>
         <p class="text">We are experts in trendy men’s haircuts. <br> We work quickly, carefully and with style.</p>
-    </section>
+      </div>
+    <div class="slider-overlay">
+    </div>
   </div>
-  </div>
+    </section> -->
   <!-- About -->
-  <div class="container">
-    <section class="about section">
+  <section class="section">
+      <div class="about container">
       <ul class="about-list list">
         <li class="about-photo">
           <img src="./images/barbercut-1.jpg" alt="barbercut" width="270" height="445" />
@@ -70,7 +93,7 @@
         </li>
       </ul>
       <div class="about-content">
-        <p class="subtitle">About</p>
+        <p class="about-subtitle subtitle">About</p>
         <h2 class="title">Best Barbershop in your city</h2>
         <p>If you want to add more confidence to your image, you should definitely visit us.</p>
         <p class="text">
@@ -80,13 +103,13 @@
           clients. Therefore, we are always ready to improve everyone who comes to us!
         </p>
         <button type="button" class="about-button button">Online-booking</button>
-    </section>
-  </div>
-  </div>
+      </div>
+    </div>
+  </section>
   <!-- Services and prices -->
   <section class="price section">
     <div class="container">
-      <p class="subtitle">Spend your time with the best masters</p>
+      <p class="price-subtitle subtitle">Spend your time with the best masters</p>
       <h2 class="title">Services and prices</h2>
       <div class="price-content">
         <ul class="price-list list">
@@ -163,8 +186,8 @@
     <div class="container">
       <p class="subtitle">For true enjoyers of the atmosphere</p>
       <h2 class="title">Our barbers</h2>
-      <ul class="barber-list list">
-        <li class="barber-item">
+      <ul class="card-set list">
+        <li class="card-item">
           <img src="./images/barber-1.jpg" alt="barber" width="370" height="346" />
           <h3 class="barber-name">John Smith</h3>
           <p class="barber-text">Extreme Barber</p>
@@ -197,7 +220,7 @@
               </a></li>
           </ul>
         </li>
-        <li class="barber-item">
+        <li class="card-item">
           <img src="./images/barber-2.jpg" alt="barber" />
           <h3 class="barber-name">Michele Doe</h3>
           <p class="barber-text">Extreme Barber</p>
@@ -230,7 +253,7 @@
               </a></li>
           </ul>
         </li>
-        <li class="barber-item">
+        <li class="card-item">
           <img src="./images/barber-3.jpg" alt="barber" />
           <h3 class="barber-name">Alan Black</h3>
           <p class="barber-text">Extreme Barber</p>
@@ -271,17 +294,17 @@
     <section class="section">
       <h2 class="hidden">Gallery</h2>
       <p class="subtitle">In Latin, "barba" means "beard"</p>
-      <ul class="gallery-list list">
-        <li class="item">
+      <ul class="gallery-list card-set list">
+        <li class="card-item">
           <img src="./images/haircut.jpg" alt="haircut" width="270" height="360" />
         </li>
-        <li class="item">
+        <li class="card-item">
           <img src="./images/beardcut.jpg" alt="beardcut" width="270" height="360" />
         </li>
-        <li class="item">
+        <li class="card-item">
           <img src="./images/beardcut-2.jpg" alt="beardcut" width="270" height="360" />
         </li>
-        <li class="item">
+        <li class="card-item">
           <img src="./images/haircut-2.jpg" alt="haircut" width="270" height="360" />
         </li>
       </ul>
@@ -303,11 +326,21 @@
           <ul class="contacts-list list">
             <li class="address">
               <a class="contacts-link link" href="https://goo.gl/maps/1m93TiqaP9GXmuAy5" target="_blank"
-                rel="noopener noreferrer nofollow">st. Vasilkivska, 7A Kyiv, 08132</a>
+                rel="noopener noreferrer nofollow"><svg class="contact-icon">
+                  <use href="./images/icons.svg#icon-map-pin"></use>
+                </svg>
+                st. Vasilkivska, 7A Kyiv, 08132</a>
             </li>
-            <li><a class="contacts-link link" href="tel:+380441111111">+38 044 111 11 11</a></li>
+            <li><a class="contacts-link link" href="tel:+380441111111">
+                <svg class="contact-icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 044 111 11 11</a></li>
             <li>
-              <a class="contacts-link" href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <a class="contacts-link" href="mailto:barbershop@email.com"><svg class="contact-icon">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                barbershop@email.com</a>
             </li>
           </ul>
         </address>
