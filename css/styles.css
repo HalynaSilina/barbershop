@@ -158,13 +158,12 @@ svg {
 
   fill: currentColor;
 }
-.page-header {
+.page-header.container {
   position: relative;
-}
-.page-topline {
+
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
 }
 /* Navigation */
 .page-nav {
@@ -255,6 +254,8 @@ svg {
 
   background-image: linear-gradient(var(--hero-bg-color), var(--hero-bg-color)), url(../images/slider-photo-3.jpg),
     url(../images/slider-photo-2.jpg), url(../images/slider-photo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-title {
   margin-top: var(--title-maim-margin);
